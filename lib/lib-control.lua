@@ -175,7 +175,7 @@ function ei_loaders_lib.snap_input(loader, mode)
                 -- like, therfore we need to flip the entire loader
                 loader.direction = ei_loaders_lib.flip_direction(loader.direction)
 
-                game.print("flipped loader: container_like")
+                --game.print("flipped loader: container_like")
             end
         end
     end
@@ -200,7 +200,7 @@ function ei_loaders_lib.snap_input(loader, mode)
             -- only need to flip loader if loader type is wrong way
             if belt_direction == ei_loaders_lib.flip_direction(loader_direction) then
                 ei_loaders_lib.flip_loader_type(loader)
-                game.print("flipped loader: belt_like")
+                --game.print("flipped loader: belt_like")
             end
         end
     end
