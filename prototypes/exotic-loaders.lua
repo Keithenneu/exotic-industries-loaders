@@ -26,12 +26,11 @@ data:extend({
         energy_required = 2,
         ingredients =
         {
-            {"ei_express-loader", 2},
-            {"processing-unit", 12},
-            {"ei_high-energy-crystal", 4},
+            {type="item", name="ei_express-loader", amount=2},
+            {type="item", name="processing-unit", amount=12},
+            {type="item", name="ei_high-energy-crystal", amount=4},
         },
-        result = "ei_neo-loader",
-        result_count = 1,
+        results = {{type="item", name="ei_neo-loader", amount=1}},
         enabled = false,
         always_show_made_in = true,
         main_product = "ei_neo-loader",
